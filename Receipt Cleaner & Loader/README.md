@@ -14,14 +14,17 @@
 ## Установка
 
 1. Склонируйте репозиторий на вашу локальную машину:
-
    git clone https://github.com/yourusername/receipt-cleaner-loader.git  cd receipt-cleaner-loader
 
 2. Поместите все ваши CSV-файлы, содержащие данные кассовых чеков, в одну директорию.
+
 3. Запустите скрипт, указав путь к директории с файлами и путь для сохранения итогового файла:
 
-python receipt_cleaner.py --input-dir /path/to/input/files --output-file /path/to/output/combined_data.csv
 4. Скрипт соберет все файлы, очистит их от ненужных данных и объединит в единый CSV-файл.
+
+5. Как использовать:
+- Замените '/path/to/input/directory' и '/path/to/output/combined_data.csv' на ваши фактические пути.
+- Запустите скрипт. Он соберет все подходящие файлы, объединит их и сохранит в указанный файл.
 
 
 ## Пример работы
@@ -30,7 +33,7 @@ python receipt_cleaner.py --input-dir /path/to/input/files --output-file /path/t
 
 ## Требования
 1.Python 3.7+
-2. Библиотеки
+2.Библиотеки
 
 ## Лицензия
 Этот проект лицензирован под лицензией MIT. Подробнее см. файл LICENSE.
