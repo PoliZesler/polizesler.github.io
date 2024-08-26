@@ -51,8 +51,8 @@ def log_user_query(cursor, query):
 
 
 # это можно перенести в файл secret.py и потом его экспортировать, чтобы скрыть информацию по токену
-#token =('7088818112:AAEjHwsW4Dfrn_iVl1oNs3cWag2BG2S690w')#второй бот
-token = ('7162333200:AAFuLc_YGv3xWbMEmEq_gOOFfNvI9t9yWWo') #первый бот
+#token =('YOUR_API_TOKEN')#второй бот
+token = ('YOUR_API_TOKEN') #первый бот
 bot = telebot.TeleBot(token)
 
 # хендлер и функция для обработки команды /start
