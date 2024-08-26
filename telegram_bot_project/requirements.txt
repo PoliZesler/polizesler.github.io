@@ -1,0 +1,8 @@
+Requirements
+ - Python 3.7+
+ - python-telegram-bot library
+
+Example Commands
+- /start - Starts the bot and greets the user.
+- /help - Provides information on how to use the bot.
+- /command - Custom command that triggers a specific bot action.
