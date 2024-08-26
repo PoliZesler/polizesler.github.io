@@ -33,5 +33,8 @@ My education and passion for data allow me to work effectively in areas where an
 I thrive in dynamic environments and am always ready to take on new challenges. My goal is to apply my skills to contribute to meaningful projects and continue growing as a data professional.
 
 ---
+## License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
 📫 Feel free to reach out or check out my projects. Let's connect and explore how we can collaborate!
